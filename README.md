@@ -1,9 +1,8 @@
-Task 2:
-Task Management App , free to use any techstack (flutter,
-react native, kotlin, swift)
+
+Task Management App 
 User should be able to perform Create, Read, Update and
 Delete tasks in the app
-Following Points will be considered while evaluating your app:
+
 1. Clean Folder Structure
 2. Proper state management (use of external frameworks are
 encouraged)
