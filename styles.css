@@ -1,0 +1,109 @@
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f7d9aa, #b39ddb);
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #f8eddc, #e5d4ec); /* Light lavender gradient */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-family: "Poppins", Arial, sans-serif;
+    text-align: center;
+    color: #333;
+}
+
+input[type="text"],
+input[type="date"],
+select {
+    font-family: "Poppins", Arial, sans-serif;
+    width: calc(100% - 80px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    font-family: "Poppins", Arial, sans-serif;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Rest of the CSS remains unchanged */
+
+
+button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    color: #333;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+.dueDate {
+    font-weight: bold;
+}
+
+#pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#prevPage,
+#nextPage {
+    padding: 8px 16px;
+    margin: 0 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#prevPage:hover,
+#nextPage:hover {
+    background-color: #0056b3;
+}
+
+#prevPage:disabled,
+#nextPage:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+#showDeletedBtn {
+    padding: 8px 16px;
+    margin: 0 5px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#showDeletedBtn:hover {
+    background-color: #d63a10;
+}
