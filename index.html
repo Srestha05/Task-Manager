@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Task Manager</h1>
+        <div>
+            <input type="text" id="taskInput" placeholder="Enter task...">
+            <input type="date" id="dueDate">
+            <select id="category">
+                <option value="">Select Category</option>
+                <option value="work">Work</option>
+                <option value="study">Study</option>
+                <option value="personal">Personal</option>
+            </select>
+            <button onclick="addTask()">Add Task</button>
+        </div>
+        <ul id="taskList"></ul>
+        <ul id="deletedTaskList" style="display: none;"></ul>
+        <div id="pagination">
+            <button id="prevPage" onclick="changePage(-1)" disabled>&lt; Prev</button>
+            <button id="nextPage" onclick="changePage(1)">Next &gt;</button>
+            <button id="showDeletedBtn" onclick="toggleDeletedTasks()">Show Deleted Tasks</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
